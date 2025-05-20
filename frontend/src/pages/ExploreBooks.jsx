@@ -102,10 +102,7 @@ const ExploreBooks = () => {
                             <input style={{marginTop:"0.3rem", paddingTop:"0.5rem",  paddingBottom:"0.5rem"}} onChange={(e)=>setAuthor(e.target.value)} type="text" />
                     </div>
 
-                    <div className='flex-column align-center'>
-                        <p style={{marginBottom:"0"}}>Author</p>
-                            <input style={{marginTop:"0.3rem", paddingTop:"0.5rem",  paddingBottom:"0.5rem"}} onChange={(e)=>setAuthor(e.target.value)} type="text" />
-                    </div>
+                    
 
                 </div>
 
